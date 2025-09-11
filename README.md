@@ -6,12 +6,12 @@ This is a Python-based tool designed to monitor all outgoing TCP connections fro
 
 ## Features
 
-- Displays all real-time outgoing TCP connections
-- Shows process name, PID, local and remote IPs with ports
-- Uses `ipapi.co` to get country information of remote IPs
-- Flags connections that are not from trusted countries
-- Logs suspicious connections to a text file
-- Clean terminal interface using `rich`
+- Displays all outgoing TCP connections in real time
+- Shows process name, PID, local and remote IP addresses with ports
+- Integrates with `ipapi.co` to fetch country information for remote IPs
+- Flags connections originating from untrusted or foreign countries
+- Logs suspicious connection details to a text file for later review
+- Provides a clean and user-friendly terminal interface using  `rich`
 
 ---
 
